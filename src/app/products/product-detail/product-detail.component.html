@@ -1,1 +1,4 @@
-<p>product-detail works!</p>
+<h2>{{ product.name }}</h2>
+<img [src]="product.image" width="200" />
+<p>{{ product.description }}</p>
+<strong>{{ product.price | currency }}</strong>
